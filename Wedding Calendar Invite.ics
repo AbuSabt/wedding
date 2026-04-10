@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Wedding Invite//AR//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:waleed-abusbat-wedding-20260501@invite
+DTSTAMP:20260410T000000Z
+DTSTART;TZID=Asia/Riyadh:20260501T210000
+DTEND;TZID=Asia/Riyadh:20260501T223000
+SUMMARY:حفل زفاف وليد ابوسبت
+DESCRIPTION:بكل حب، نتشرف بدعوتكم لمشاركتنا حفل زواجي. وجودكم يبهجنا ويتمم سعادتنا.
+LOCATION:https://maps.app.goo.gl/krvnik27AMyMzNBHA
+URL:https://maps.app.goo.gl/krvnik27AMyMzNBHA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:تذكير: حفل زفاف وليد ابوسبت بعد ساعة
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1D
+ACTION:DISPLAY
+DESCRIPTION:تذكير: حفل زفاف وليد ابوسبت غداً
+END:VALARM
+END:VEVENT
+END:VCALENDAR
